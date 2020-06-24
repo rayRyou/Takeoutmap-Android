@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">TakeoutMap柏</string>
+    <string name="map_view">MapView</string>
+    <string name="title_home">Map</string>
+    <string name="title_dashboard">List</string>
+    <string name="title_ale">#柏エール飯</string>
+    <string name="title_uchimeshi">ウチめし柏</string>
+    <string name="title_notifications">About</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="about_storage_form_url">"https://docs.google.com/forms/d/e/1FAIpQLSflniWKqwb_f4ogn5OsPKUxUb_GWnm750_kiy-2hbVCWxJkFw/viewform"</string>
+    <string name="about_webapp_url">https://takeout-kashiwa.glideapp.io/</string>
+    <string name="about_contact_url">https://docs.google.com/forms/d/e/1FAIpQLScge4YN0oN2glRi7O3kOngkJ1l9mOEWWp91kavYhQxF_PLQhQ/viewform</string>
+    <string name="ale_url">https://kankou.kashiwa-cci.or.jp/kashiwa-yell-meshi/</string>
+    <string name="uchimeshi_url">http://uchimeshi-kashiwa.com/index.html</string>
+
+    <string name="week_mon">月曜日</string>
+    <string name="week_tue">火曜日</string>
+    <string name="week_wed">水曜日</string>
+    <string name="week_thu">木曜日</string>
+    <string name="week_fri">金曜日</string>
+    <string name="week_sat">土曜日</string>
+    <string name="week_sun">日曜日</string>
+
+    <string name="shop_name">店名</string>
+    <string name="shop_building">所在地(ビル名)</string>
+    <string name="shop_address">所在地</string>
+    <string name="shop_open_day">実施曜日</string>
+    <string name="shop_tel">問い合わせ先 (TEL)</string>
+    <string name="shop_contact">問い合わせ先 (その他)</string>
+    <string name="shop_description">メニュー (説明文 or URL) や備考など自由記入</string>
+    <string name="shop_derivery">デリバリーの有無</string>
+    <string name="shop_sns">よく情報発信しているSNSのURL</string>
+    <string name="shop_image_url">写真URL</string>
+    <string name="shop_mailaddress">メールアドレス</string>
+    <string name="shop_open_data">データの公開許可</string>
+    <string name="shop_category">カテゴリ</string>
+    <string name="shop_is_open">休止状況</string>
+    <string name="shop_location">Glide Location</string>
+
+    <string name="about_title">
+        このプロジェクトについて
+    </string>
+    <string name="about_text">
+        Code for Kashiwa と呼ばれる市民プログラマによるボランティア活動で纏められています。情報は入力時点のものですが、お店が発信しているSNSから情報を収集し更新することがあります。通常営業ができない飲食店を支援するために2020年3月より開始しました。
+    </string>
+    <string name="about_policy_title">
+        利用に関する注意
+    </string>
+    <string name="about_policy_text">
+        ・最新の情報は、ホームページやSNSご確認ください\n
+        ・店舗の情報はお店の方が直接入力してもらっています。掲載している情報は入力時点の物です。\n
+        ・本サービスは外出を推奨することを目的としていません。お店の最新情報や政府・自治体の情報や感染拡大状況を確認の上、慎重に行動してください。\n
+        ・状況によって機能の変更や中止をする場合があります。必ず最新バージョンおアプリをご利用ください\n
+        ・サービス維持のため広告が表示されます
+    </string>
+    <string name="about_storage_title">
+        お店の登録について
+    </string>
+    <string name="about_storage_text">
+        ・お店の方が直接入力してください\n
+        ・SNS等のURLを入れておくと、ユーザが最新情報にアクセスしやすくなります\n
+        ・第三者による入力は、お店の承諾と確認を取ってください\n
+        ・当面はGoogleフォームによる入力を進めていますが、今後の状況をよっては変更する可能性があります。アプリは最新バージョンをご利用ください。
+    </string>
+    <string name="about_btn_storage">店舗登録フォーム</string>
+    <string name="about_btn_webapp">WEBアプリ版</string>
+    <string name="about_btn_contact">お問い合わせフォーム</string>
+    <string name="title_activity_web">WebActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="version_alert">アプリバージョン</string>
+    <string name="version_message">アプリのバージョンが古くなっています。\nアプリの更新をしてください。</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.oakleafproject.takeoutmapk.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+<!--    <fragment-->
+<!--        xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        xmlns:tools="http://schemas.android.com/tools"-->
+<!--        android:name="com.oakleafproject.takeoutmapk.ui.home.HomeFragment"-->
+<!--        android:id="@+id/map_view"-->
+<!--        android:label="@string/map_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:layout="@layout/fragment_home" />-->
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.oakleafproject.takeoutmapk.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.oakleafproject.takeoutmapk.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_uchimeshi"
+        android:name="com.oakleafproject.takeoutmapk.UchimeshiFragment"
+        android:label="@string/title_uchimeshi"
+        tools:layout="@layout/uchimeshi_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_ale"
+        android:name="com.oakleafproject.takeoutmapk.AlemeshiFragment"
+        android:label="@string/title_ale"
+        tools:layout="@layout/alemeshi_fragment" />
+</navigation>

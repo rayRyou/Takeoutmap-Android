@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ShopImage"
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/ShopName"
+                android:layout_margin="20px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50px"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/OpenImage"
+                    android:src="@drawable/icon_open"
+                    android:layout_margin="20px"
+                    android:layout_width="40px"
+                    android:layout_height="40px"/>
+                <TextView
+                    android:id="@+id/OpenLabel"
+                    android:layout_margin="20px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/AddressImage"
+                    android:src="@drawable/icon_address"
+                    android:layout_margin="20px"
+                    android:layout_width="40px"
+                    android:layout_height="40px"/>
+                <TextView
+                    android:id="@+id/AddressLabel"
+                    android:autoLink="map"
+                    android:layout_margin="20px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/TelImage"
+                    android:src="@drawable/icon_tel"
+                    android:layout_margin="20px"
+                    android:layout_width="40px"
+                    android:layout_height="40px"/>
+                <TextView
+                    android:id="@+id/TelLabel"
+                    android:autoLink="phone"
+                    android:layout_margin="20px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/SNSSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/SNSImage"
+                    android:layout_margin="20px"
+                    android:layout_width="40px"
+                    android:layout_height="40px"/>
+                <TextView
+                    android:id="@+id/SNSLabel"
+                    android:autoLink="web"
+                    android:layout_margin="20px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/DeriveryImage"
+                    android:src="@drawable/icon_derivery"
+                    android:layout_margin="20px"
+                    android:layout_width="40px"
+                    android:layout_height="40px"/>
+                <TextView
+                    android:id="@+id/DeriveryLabel"
+                    android:autoLink="web"
+                    android:layout_margin="20px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/Description"
+                android:autoLink="all"
+                android:layout_margin="20px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

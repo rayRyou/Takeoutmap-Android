@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/icon_map"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/icon_list"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/home_logo"
+        android:title="@string/title_notifications" />
+
+    <item
+        android:id="@+id/navigation_uchimeshi"
+        android:icon="@drawable/deli"
+        android:title="@string/title_uchimeshi"/>
+
+    <item
+        android:id="@+id/navigation_ale"
+        android:icon="@drawable/sharp"
+        android:title="@string/title_ale"/>
+</menu>

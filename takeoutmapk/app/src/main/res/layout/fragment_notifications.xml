@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/text_about_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:text="@string/about_title"/>
+            <TextView
+                android:id="@+id/text_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:text="@string/about_text">
+
+            </TextView>
+            <TextView
+                android:id="@+id/text_policy_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:text="@string/about_policy_title"/>
+            <TextView
+                android:id="@+id/text_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:text="@string/about_policy_text">
+
+            </TextView>
+            <TextView
+                android:id="@+id/text_storage_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:text="@string/about_storage_title"/>
+            <TextView
+                android:id="@+id/text_storage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:text="@string/about_storage_text"/>
+
+            <Button
+                android:id="@+id/storage_btn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/about_btn_storage"/>
+
+            <Button
+                android:id="@+id/webapp_btn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/about_btn_webapp"/>
+            <Button
+                android:id="@+id/contact_btn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/about_btn_contact">
+
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
